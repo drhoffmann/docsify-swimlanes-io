@@ -1,7 +1,7 @@
 {
   "name": "docsify-swimlanes-io",
-  "version": "1.0.0",
-  "description": "A Docsify plugin that reders swimlanes.io sequence diagrams.",
+  "version": "1.0.1",
+  "description": "A docsify plugin that embed swimlanes.io sequence diagrams.",
   "main": "index.js",
   "scripts": {
     "build": "parcel build index.js --out-file docsify-swimlanes-io.js",

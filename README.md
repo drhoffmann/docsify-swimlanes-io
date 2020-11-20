@@ -1,4 +1,4 @@
-docsify-swimlanes-io is a [docsify](https://github.com/docsifyjs/docsify/) plugin that let you render [swimlanes.io](https://swimlanes.io) sequence diagrams in docsify.
+docsify-swimlanes-io is a [docsify](https://github.com/docsifyjs/docsify/) plugin that let you embed [swimlanes.io](https://swimlanes.io) sequence diagrams in docsify.
 
 ## How to use
 
