@@ -1,0 +1,35 @@
+{
+  "name": "docsify-swimlanes-io",
+  "version": "1.0.0",
+  "description": "A Docsify plugin that reders swimlanes.io sequence diagrams.",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.js --out-file docsify-swimlanes-io.js",
+    "example": "npm run build && docsify serve example/ --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drhoffmann/docsify-swimlanes-io.git"
+  },
+  "keywords": [
+    "swimlanes.io",
+    "swimlanes",
+    "docsify",
+    "sequence",
+    "diagram",
+    "sequence-diagram",
+    "sequence-diagrams"
+  ],
+  "author": "frank hoffmann (https://swimlanes.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drhoffmann/docsify-swimlanes-io/issues"
+  },
+  "homepage": "http://swimlanes.io",
+  "devDependencies": {
+    "docsify-cli": "^4.4.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {}
+}
