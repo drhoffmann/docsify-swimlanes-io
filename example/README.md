@@ -28,7 +28,7 @@ Alternatively use a `<swimlanes-io>` element. This is required if you want to re
     B --> A: Pong
     </swimlanes-io>
 
-<swimlanes-io>
+ <swimlanes-io>
 title: {far-box} Embedded
 A -> B: Ping
 note:
