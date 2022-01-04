@@ -27,7 +27,7 @@ const plugin = (hook) => {
     const divStyle = 'width:100%; height:300px';
     const iframeStyle = 'border:none; margin:0px; width:100%; height:100%';
 
-    htmlElement.querySelectorAll('pre[data-lang=swimlanes-io]').forEach((el, i) => {
+    htmlElement.querySelectorAll('pre[data-lang=swimlanes-io], swimlanes-io').forEach((el, i) => {
       const state = encode(el.textContent);
       const divId = '__swimlanes-io-' + i;
       const iframeSrc = `${htmlSrc}#${state}#${i}`
