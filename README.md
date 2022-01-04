@@ -15,11 +15,11 @@ And add the diagram text:
     A -> B: Ping
     B --> A: Pong
     ```
-    
+
 Alternatively use a `<swimlanes-io>` element. This is required if you want to render code blocks in the diagram. 
 
     <swimlanes-io>
-    title: {far-box} Embedded
+    title: Simple example
     A -> B: Ping
     note:
     ```
